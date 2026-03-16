@@ -1,30 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Product Management Page</title>
     <link rel="stylesheet" href="../Design/Style.css">
 </head>
 <body>
     <form id="productForm">
-        <h2 class="form-header">Product Management Page</h2>
-        <table>
-            <tr>
-                <td><label for="unitPrice">Unit Price:</label></td>
-                <td><input type="text" id="unitPrice" value="1000" readonly></td>
-            </tr>
-            <tr>
-                <td><label for="quantity">Quantity per Day:</label></td>
-                <td>
-                    <input type="number" id="quantity" name="quantity" placeholder="Enter quantity per day">
-                    <p id="errorMsg" class="error"></p>
-                </td>
-            </tr>
-            <tr>
-                <td><label for="totalPrice">Total Price for 30 Days:</label></td>
-                <td><input type="text" id="totalPrice" name="totalPrice" value="0" readonly></td>
-            </tr>
-        </table>
+        <fieldset>
+            <legend>Product Management Page</legend>
+
+            <label for="unitPrice">Unit Price:</label>
+            <input type="text" id="unitPrice" value="1000" readonly>
+
+            <label for="quantity">Quantity Per Day:</label>
+            <input type="number" id="quantity" name="quantity" placeholder="Enter quantity per day">
+            <p id="errorMsg" class="error"></p>
+
+            <label for="totalPrice">Total Price for 30 Days:</label>
+            <input type="text" id="totalPrice" name="totalPrice" value="0" readonly>
+        </fieldset>
     </form>
 </body>
 </html>
