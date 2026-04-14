@@ -3,10 +3,10 @@
 
 <head>
     <title>Text Analysis Tool</title>
+    <link rel="stylesheet" href="D:\Github\WTech_Spring-2025-26\Lt-5_Practice\Design\Style.css">
+    <script src="D:\Github\WTech_Spring-2025-26\Lt-5_Practice\Script\Script.js"></script>
 </head>
 <body>
-    
-    <link rel="stylesheet" href="D:\Github\WTech_Spring-2025-26\Lt-5_Practice\Design\Style.css">
     <header>
         <h1>Text Analysis Tool</h1>
     </header>
@@ -15,11 +15,11 @@
         <form>
             <table>
                 <tr>
-                    <textarea id="inputText" rows="8" cols="60" placeholder="Enter your text..."></textarea>
+                    <textarea id="inputText" rows="8" cols="60" placeholder="Enter your text..." onkeyup="return get_textarea()"></textarea>
                     <br>
                 </tr>
                 <tr>
-                    <button id="analyzeBtn">Analyze Text</button>
+                    <button id="analyzeBtn" onclick="analyzeText()">Analyze Text</button>
                 </tr>
             </table>
         </form>
