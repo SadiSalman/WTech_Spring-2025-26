@@ -32,12 +32,12 @@
                 <tr>
                     <td><label for="gender">Gender: </label></td>
                     <td>
-                        <input type = "radio" id = "gender" name = "gender" value = "female">
+                        <input type="radio" id="female" name="gender" value="female">
                         <label for="female">Female</label>
-                        <input type = "radio" id = "gender" name = "gender" value = "male">
-                        <label for="female">Male</label>
-                        <input type = "radio" id = "gender" name = "gender" value = "other">
-                        <label for="female">Other</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">Other</label>
                     </td>
                     <td><p style='color:red'>*</p></td>
                 </tr>
