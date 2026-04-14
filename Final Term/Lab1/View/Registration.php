@@ -1,8 +1,6 @@
-<?php
-    include ="../Controller/Registrationvalidation.php"
->
+<?php include "../Controller/Registrationvalidation.php";?>
 
-<iDOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Registration in login form</title>
@@ -15,21 +13,21 @@
                 </tr>
                 <tr>
                     <td><label for="name">Name: </label></td>
-                    <td><input type="text" id="name" name ="name"><?php echo $name></td>
+                    <td><input type="text" id="name" name ="name"><?php echo $name ?></td>
                     <td><p style ='color:red'>*</p></td>
                 </tr>
                 <tr>
                     <td><label for="mail">Email: </label></td>
-                    <td><input type="email" id="mail" name ="mail"><?php echo $mail></td>
+                    <td><input type="email" id="mail" name ="mail"><?php echo $mail ?></td>
                     <td><p style ='color:red'>*</p></td>
                 </tr>
                 <tr>
                     <td><label for="web">Website: </label></td>
-                    <td><input type="text" id="web" name="web"><?php echo $web></td>
+                    <td><input type="text" id="web" name="web"><?php echo $web ?></td>
                 </tr>
                 <tr>
                     <td><label for="comment">Comment: </label></td>
-                    <td><textarea id="comment" name="comment" rows="5" cols="30"><?php echo $comment></textarea></td>
+                    <td><textarea id="comment" name="comment" rows="5" cols="30"><?php echo $comment ?></textarea></td>
                 </tr>
                 <tr>
                     <td><label for="gender">Gender: </label></td>
